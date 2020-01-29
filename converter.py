@@ -3,7 +3,7 @@ def romanConverter(num):
     # Checking invalid input
 
     if not isinstance(num, int):
-        return "Error, input is not decimal"
+        return "Error, input is not integer"
 
     if num == 0:
         return "Error, no zero conversion"
