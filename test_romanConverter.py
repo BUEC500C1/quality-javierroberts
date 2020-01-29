@@ -55,7 +55,11 @@ def test_romanConverter_2020():
 
 
 def test_romanConverter_letter():
-    assert romanConverter("4a0") == "CD"
+    assert romanConverter("4a0") == "Error, input is not integer"
+
+
+def test_romanConverter_decimal():
+    assert romanConverter("2.2") == "Error, input is not integer"
 
 
 def test_romanConverter_empty():

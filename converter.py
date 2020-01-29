@@ -6,6 +6,8 @@ def romanConverter(num):
         return "Error, no zero conversion"
     if num < 0:
         return "Error, negative number"
+    if not isinstance(num, int):
+        return "Error, input is not decimal"
 
     remainder = num
     roman = ""
