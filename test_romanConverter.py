@@ -62,10 +62,6 @@ def test_romanConverter_decimal():
     assert romanConverter("2.2") == "Error, input is not integer"
 
 
-def test_romanConverter_empty():
-    assert romanConverter() == ""
-
-
 def test_romanConverter_0():
     assert romanConverter(0) == "Error, no zero conversion"
 
